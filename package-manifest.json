@@ -1,0 +1,19 @@
+{
+  "product_id": "JLZ-EDU-SK-021",
+  "repository_name": "edu-enrollment-conversion-calculator",
+  "product_type": "Skill",
+  "version": "1.0.0",
+  "package_path": "dist/edu-enrollment-conversion-calculator-v1.0.0.zip",
+  "sha256": "836E1B2BAEA146D38104EA379C1D99C9F5A20237FC432B1FA67494F92B9EA15B",
+  "bytes": 5585,
+  "entries": [
+    "edu-enrollment-conversion-calculator/SKILL.md",
+    "edu-enrollment-conversion-calculator/references/DOMAIN_GUIDE.md",
+    "edu-enrollment-conversion-calculator/references/EXAMPLES.md",
+    "edu-enrollment-conversion-calculator/templates/OUTPUT_TEMPLATE.md",
+    "edu-enrollment-conversion-calculator/scripts/calculate.js"
+  ],
+  "built_at": "2026-11-06T21:41:06.5434121+08:00",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED"
+}

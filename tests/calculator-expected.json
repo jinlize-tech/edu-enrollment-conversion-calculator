@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "cumulativeRate": 0.05,
+  "stageRates": [
+    {
+      "from": "线索",
+      "rate": 0.4,
+      "to": "到访"
+    },
+    {
+      "from": "到访",
+      "rate": 0.5,
+      "to": "试听"
+    },
+    {
+      "from": "试听",
+      "rate": 0.25,
+      "to": "成交"
+    }
+  ]
+}

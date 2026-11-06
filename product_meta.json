@@ -1,0 +1,25 @@
+{
+  "number": 24,
+  "product_id": "JLZ-EDU-SK-021",
+  "chinese_name": "招生转化漏斗计算",
+  "english_name": "Enrollment Conversion Calculator",
+  "repository_name": "edu-enrollment-conversion-calculator",
+  "product_type": "Skill",
+  "category": "02 销售转化中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-enrollment-conversion-calculator-v1.0.0.zip",
+  "calculator": true,
+  "core_input": "各阶段人数、渠道来源、统计周期、有效线索定义和数据口径",
+  "main_output": "漏斗表、阶段转化率、流失点、口径说明、改善假设和待补充数据",
+  "package_entries": [
+    "edu-enrollment-conversion-calculator/SKILL.md",
+    "edu-enrollment-conversion-calculator/references/DOMAIN_GUIDE.md",
+    "edu-enrollment-conversion-calculator/references/EXAMPLES.md",
+    "edu-enrollment-conversion-calculator/templates/OUTPUT_TEMPLATE.md",
+    "edu-enrollment-conversion-calculator/scripts/calculate.js"
+  ]
+}
