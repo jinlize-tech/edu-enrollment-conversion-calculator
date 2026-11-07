@@ -1,12 +1,12 @@
 {
   "stages": [
     {
-      "name": "线索",
-      "count": 100
+      "count": 100,
+      "name": "线索"
     },
     {
-      "name": "成交",
-      "count": -1
+      "count": -1,
+      "name": "成交"
     }
   ]
 }

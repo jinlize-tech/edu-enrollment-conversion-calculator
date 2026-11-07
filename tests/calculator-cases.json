@@ -8,18 +8,18 @@
       "stageRates": [
         {
           "to": "到访",
-          "rate": 0.4,
-          "from": "线索"
+          "from": "线索",
+          "rate": 0.4
         },
         {
           "to": "试听",
-          "rate": 0.5,
-          "from": "到访"
+          "from": "到访",
+          "rate": 0.5
         },
         {
           "to": "成交",
-          "rate": 0.25,
-          "from": "试听"
+          "from": "试听",
+          "rate": 0.25
         }
       ],
       "status": "ok",
@@ -59,8 +59,8 @@
       "stageRates": [
         {
           "to": "成交",
-          "rate": null,
-          "from": "线索"
+          "from": "线索",
+          "rate": null
         }
       ],
       "status": "ok",
@@ -76,8 +76,8 @@
       "stageRates": [
         {
           "to": "成交",
-          "rate": 1,
-          "from": "到访"
+          "from": "到访",
+          "rate": 1
         }
       ],
       "status": "ok",
