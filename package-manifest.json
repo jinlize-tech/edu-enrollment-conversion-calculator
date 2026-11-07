@@ -2,18 +2,30 @@
   "product_id": "JLZ-EDU-SK-021",
   "repository_name": "edu-enrollment-conversion-calculator",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-enrollment-conversion-calculator-v1.0.0.zip",
-  "sha256": "836E1B2BAEA146D38104EA379C1D99C9F5A20237FC432B1FA67494F92B9EA15B",
-  "bytes": 5585,
+  "version": "1.0.1",
+  "package_path": "dist/edu-enrollment-conversion-calculator-v1.0.1.zip",
+  "sha256": "50D401566F18F87E3BD07D46A06872E2C1A1915A0DF23A67A879BC1397D80D13",
+  "bytes": 15783,
   "entries": [
     "edu-enrollment-conversion-calculator/SKILL.md",
     "edu-enrollment-conversion-calculator/references/DOMAIN_GUIDE.md",
     "edu-enrollment-conversion-calculator/references/EXAMPLES.md",
     "edu-enrollment-conversion-calculator/templates/OUTPUT_TEMPLATE.md",
-    "edu-enrollment-conversion-calculator/scripts/calculate.js"
+    "edu-enrollment-conversion-calculator/scripts/calculate.js",
+    "edu-enrollment-conversion-calculator/README.md",
+    "edu-enrollment-conversion-calculator/USAGE.md",
+    "edu-enrollment-conversion-calculator/LICENSE",
+    "edu-enrollment-conversion-calculator/THIRD_PARTY_NOTICES.md",
+    "edu-enrollment-conversion-calculator/scripts/validate_input.js"
   ],
-  "built_at": "2026-11-06T21:41:06.5434121+08:00",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED"
+  "license": "Apache-2.0",
+  "license_included": true,
+  "license_sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30",
+  "third_party_notice_included": true,
+  "previous_package_path": "dist/edu-enrollment-conversion-calculator-v1.0.0.zip",
+  "previous_package_sha256": "836E1B2BAEA146D38104EA379C1D99C9F5A20237FC432B1FA67494F92B9EA15B",
+  "built_at": "2026-11-07T09:11:05.2869827+08:00",
+  "status": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE"
 }

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "normal",
+    "layer": "T4_DETERMINISTIC_FUNCTION",
+    "input_file": "tests/calculator-cases/normal.json",
+    "expected_exit_code": 0,
+    "expected": {
+      "stageRates": [
+        {
+          "to": "到访",
+          "rate": 0.4,
+          "from": "线索"
+        },
+        {
+          "to": "试听",
+          "rate": 0.5,
+          "from": "到访"
+        },
+        {
+          "to": "成交",
+          "rate": 0.25,
+          "from": "试听"
+        }
+      ],
+      "status": "ok",
+      "cumulativeRate": 0.05
+    }
+  },
+  {
+    "id": "missing-stages",
+    "layer": "T5_SCENARIO_TESTS",
+    "input_file": "tests/calculator-cases/missing-stages.json",
+    "expected_exit_code": 2,
+    "expected": {
+      "errors": [
+        "至少需要两个转化阶段"
+      ],
+      "status": "invalid"
+    }
+  },
+  {
+    "id": "negative-count",
+    "layer": "T5_SCENARIO_TESTS",
+    "input_file": "tests/calculator-cases/negative-count.json",
+    "expected_exit_code": 2,
+    "expected": {
+      "errors": [
+        "阶段2人数必须是大于或等于0的有限数值"
+      ],
+      "status": "invalid"
+    }
+  },
+  {
+    "id": "zero-base",
+    "layer": "T5_SCENARIO_TESTS",
+    "input_file": "tests/calculator-cases/zero-base.json",
+    "expected_exit_code": 0,
+    "expected": {
+      "stageRates": [
+        {
+          "to": "成交",
+          "rate": null,
+          "from": "线索"
+        }
+      ],
+      "status": "ok",
+      "cumulativeRate": null
+    }
+  },
+  {
+    "id": "full-conversion",
+    "layer": "T5_SCENARIO_TESTS",
+    "input_file": "tests/calculator-cases/full-conversion.json",
+    "expected_exit_code": 0,
+    "expected": {
+      "stageRates": [
+        {
+          "to": "成交",
+          "rate": 1,
+          "from": "到访"
+        }
+      ],
+      "status": "ok",
+      "cumulativeRate": 1
+    }
+  }
+]
