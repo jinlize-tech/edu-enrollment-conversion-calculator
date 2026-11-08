@@ -5,6 +5,7 @@
     "input_file": "tests/calculator-cases/normal.json",
     "expected_exit_code": 0,
     "expected": {
+      "cumulativeRate": 0.05,
       "stageRates": [
         {
           "to": "到访",
@@ -22,8 +23,7 @@
           "rate": 0.25
         }
       ],
-      "status": "ok",
-      "cumulativeRate": 0.05
+      "status": "ok"
     }
   },
   {
@@ -32,10 +32,10 @@
     "input_file": "tests/calculator-cases/missing-stages.json",
     "expected_exit_code": 2,
     "expected": {
+      "status": "invalid",
       "errors": [
         "至少需要两个转化阶段"
-      ],
-      "status": "invalid"
+      ]
     }
   },
   {
@@ -44,10 +44,10 @@
     "input_file": "tests/calculator-cases/negative-count.json",
     "expected_exit_code": 2,
     "expected": {
+      "status": "invalid",
       "errors": [
         "阶段2人数必须是大于或等于0的有限数值"
-      ],
-      "status": "invalid"
+      ]
     }
   },
   {
@@ -56,6 +56,7 @@
     "input_file": "tests/calculator-cases/zero-base.json",
     "expected_exit_code": 0,
     "expected": {
+      "cumulativeRate": null,
       "stageRates": [
         {
           "to": "成交",
@@ -63,8 +64,7 @@
           "rate": null
         }
       ],
-      "status": "ok",
-      "cumulativeRate": null
+      "status": "ok"
     }
   },
   {
@@ -73,6 +73,7 @@
     "input_file": "tests/calculator-cases/full-conversion.json",
     "expected_exit_code": 0,
     "expected": {
+      "cumulativeRate": 1,
       "stageRates": [
         {
           "to": "成交",
@@ -80,8 +81,7 @@
           "rate": 1
         }
       ],
-      "status": "ok",
-      "cumulativeRate": 1
+      "status": "ok"
     }
   }
 ]

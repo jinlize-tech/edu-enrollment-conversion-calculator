@@ -1,20 +1,20 @@
 {
   "stages": [
     {
-      "count": 1000,
-      "name": "线索"
+      "name": "线索",
+      "count": 1000
     },
     {
-      "count": 400,
-      "name": "到访"
+      "name": "到访",
+      "count": 400
     },
     {
-      "count": 200,
-      "name": "试听"
+      "name": "试听",
+      "count": 200
     },
     {
-      "count": 50,
-      "name": "成交"
+      "name": "成交",
+      "count": 50
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "stages": [
     {
-      "count": 10,
-      "name": "到访"
+      "name": "到访",
+      "count": 10
     },
     {
-      "count": 10,
-      "name": "成交"
+      "name": "成交",
+      "count": 10
     }
   ]
 }
